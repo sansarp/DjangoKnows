@@ -1,0 +1,5 @@
+Good link to follow: https://www.howtoforge.com/tutorial/how-to-install-django-on-ubuntu/
+https://docs.djangoproject.com/en/2.1/topics/install/
+
+But starting the server is tricky try with 127.0.0.1 in settings.py and python manage.py runserver 0:8080
+
