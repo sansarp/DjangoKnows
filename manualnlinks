@@ -13,3 +13,33 @@ sudo apt-get install sublime-text
 
 python manage.py runserver 0:8000
 python manage.py changepassword admin   : Testing123#
+
+
+For MAC
+Consider using the `--user` option or check the permissions.
+use: pip install virtualenv --user
+If you install latest version of python 3.7 as of Sep 2018
+The only workable approach I could figure out (with help from @Gator_Python was to do python -m virtualenv venv. 
+This creates the virtual environment and works as expected.
+I have custom python installed and maybe that's why the default approach doesn't work for me.
+-m runs library module as a script
+
+Installed HomeBrew
+brew install tree
+
+
+====Final commands for MAc====
+create repo in git with gitignore and add remote host to your local folder, same named folder as of git folder or project
+Install latest version of python3 via package
+sudo easy_install pip
+pip3 install virtualenv --user
+python3 -m virtualenv environment01
+Inside environment01:: pip3 install django==2.1.1
+python3 -m django --version
+
+
+
+
+
+
+
