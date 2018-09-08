@@ -34,8 +34,12 @@ Install latest version of python3 via package
 sudo easy_install pip
 pip3 install virtualenv --user
 python3 -m virtualenv environment01
+Activate the environment: cd environment01; source bin/activate;
 Inside environment01:: pip3 install django==2.1.1
 python3 -m django --version
+Running app: python manage.py runserver
+Start project: django-admin startproject analyzemalware
+Start app:: python manage.py startapp examine
 
 
 
