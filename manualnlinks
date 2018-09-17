@@ -41,6 +41,15 @@ Running app: python manage.py runserver
 Start project: django-admin startproject analyzemalware
 Start app:: python manage.py startapp examine
 
+===Django Extensions===
+https://github.com/django-extensions/django-extensions
+https://godjango.com/39-be-more-productive-with-django_extensions/
+problem: django-extension is not recognized by the server(module django-extension not found error) whereas we need to write _ in registered app list
+---soln: don't put django-extension files as app under your project folder instead just pip install django-extensions,
+and django_extensions should go under installed app as said in the documentation, importantly i restarted my Pycharm IDE and
+error went away.
+
+
 
 
 
