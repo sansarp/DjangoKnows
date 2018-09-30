@@ -49,6 +49,8 @@ problem: django-extension is not recognized by the server(module django-extensio
 and django_extensions should go under installed app as said in the documentation, importantly i restarted my Pycharm IDE and
 error went away.
 
+==Django for debugging at templates==
+https://django-template-debug.readthedocs.io/en/latest/
 
 
 
