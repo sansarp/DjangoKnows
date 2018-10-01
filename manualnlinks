@@ -51,6 +51,20 @@ error went away.
 
 ==Django for debugging at templates==
 https://django-template-debug.readthedocs.io/en/latest/
+template_debug not found error gone after running this command: sudo pip3 install django-template-debug
+Use this in your template page: {% load debug_tags %} {% set_trace %} and debug in terminal
+
+
+==Migration:add new attribute in database in django::
+Change the model and run the new migration which will override previous migration
+python3 manage.py makemigrations examine
+python3 manage.py migrate examine
+
+#Because import didnt work
+install: sudo pip3 install requests
+
+
+
 
 
 
