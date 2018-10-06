@@ -64,6 +64,20 @@ python3 manage.py migrate examine
 install: sudo pip3 install requests
 
 
+#Commands used
+pip3 install django-static-jquery==2.1.4
+
+#To make your jquery work
+'django_static_jquery', 'django.contrib.staticfiles', BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+STATIC_URL = '/static/'
+{% load static %}
+{% static 'examine/js/examine_jquery.js' %}
+
+{% block content %}
+<link rel="stylesheet" type="text/css"  href="{% static 'examine/style.css' %}"> #Should be Inside block
+<script type="text/javascript" src="{% static 'examine/js/examine_jquery.js' %}" ></script> #Should be Inside block
+{% endblock %}
+
 
 
 
